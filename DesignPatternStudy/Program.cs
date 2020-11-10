@@ -1,4 +1,7 @@
-﻿using DesignPatternStudy.Iterator;
+﻿using DesignPatternStudy.Adapter;
+using DesignPatternStudy.FactoryMethod;
+using DesignPatternStudy.Iterator;
+using DesignPatternStudy.TemplateMethod;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +14,10 @@ namespace DesignPatternStudy
     {
         static void Main(string[] args)
         {
-            IteratorStudyRun.Start();
+            //IteratorStudyRun.Start();
+            //AdapterStudy.Start();
+            //TemplateMethodRun.Start();
+            FactoryMethodRun.Run();
 
         }
     }

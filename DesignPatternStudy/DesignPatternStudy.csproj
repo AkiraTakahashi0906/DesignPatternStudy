@@ -43,6 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter\AdapterStudy.cs" />
+    <Compile Include="Adapter\Banner.cs" />
+    <Compile Include="Adapter\IPrint.cs" />
+    <Compile Include="Adapter\PrintBanner.cs" />
+    <Compile Include="Adapter\PrintBannerDelegate.cs" />
+    <Compile Include="FactoryMethod\FactoryMethodRun.cs" />
+    <Compile Include="FactoryMethod\Factory.cs" />
+    <Compile Include="FactoryMethod\IDCard.cs" />
+    <Compile Include="FactoryMethod\IDCardFactory.cs" />
+    <Compile Include="FactoryMethod\Product.cs" />
     <Compile Include="Iterator\Book.cs" />
     <Compile Include="Iterator\BookShelf.cs" />
     <Compile Include="Iterator\BookShelfEnumerable.cs" />
@@ -52,9 +62,14 @@
     <Compile Include="Iterator\IteratorStudyRun.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TemplateMethod\AbstractDisplay.cs" />
+    <Compile Include="TemplateMethod\CharDisplay.cs" />
+    <Compile Include="TemplateMethod\StringDisplay.cs" />
+    <Compile Include="TemplateMethod\TemplateMethodRun.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
