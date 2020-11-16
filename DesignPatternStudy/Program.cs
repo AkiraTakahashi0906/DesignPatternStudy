@@ -1,6 +1,7 @@
 ﻿using DesignPatternStudy.Adapter;
 using DesignPatternStudy.FactoryMethod;
 using DesignPatternStudy.Iterator;
+using DesignPatternStudy.Singleton;
 using DesignPatternStudy.TemplateMethod;
 using System;
 using System.Collections.Generic;
@@ -17,7 +18,8 @@ namespace DesignPatternStudy
             //IteratorStudyRun.Start();
             //AdapterStudy.Start();
             //TemplateMethodRun.Start();
-            FactoryMethodRun.Run();
+            //FactoryMethodRun.Run();
+            SingletonStudyRun.Run();
 
         }
     }
