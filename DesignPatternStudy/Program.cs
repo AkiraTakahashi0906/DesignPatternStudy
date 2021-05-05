@@ -1,5 +1,7 @@
 ﻿using DesignPatternStudy.Adapter;
 using DesignPatternStudy.FactoryMethod;
+using DesignPatternStudy.head_first_Observer;
+using DesignPatternStudy.head_first_Observer.C2;
 using DesignPatternStudy.Iterator;
 using DesignPatternStudy.Singleton;
 using DesignPatternStudy.TemplateMethod;
@@ -19,8 +21,10 @@ namespace DesignPatternStudy
             //AdapterStudy.Start();
             //TemplateMethodRun.Start();
             //FactoryMethodRun.Run();
-            SingletonStudyRun.Run();
+            //SingletonStudyRun.Run();
 
+            var weatherStation2 = new WeatherStation2();
+            Console.ReadKey();
         }
     }
 }
